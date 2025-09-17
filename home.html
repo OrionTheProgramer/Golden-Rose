@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Rose</title>
+  <link rel="stylesheet" href="CSS/home_style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="Resource/icon.png" type="image/png" width="32" height="32">
+</head>
+<body class="rosegold">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <img src="Resource/icon.png" alt="Golden Rose" width="48" height="48" style="border-radius: 12px; box-shadow: 0 2px 8px #ffb6c1; background: #fff; padding: 2px;">
+        <span style="font-size: 1.7rem; font-weight: bold; letter-spacing: 1px; color: #FFD700; text-shadow: 1px 1px 8px #ffb6c1;">Golden Rose</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Iniciar sesión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <div id="carouselSkins" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Resource/Valorant_skins/champions2021_vandal.png" class="d-block w-100 img-fluid" alt="Skin 1">
+      </div>
+      <div class="carousel-item">
+        <img src="Resource/Valorant_skins/champions2023_vandal.png" class="d-block w-100 img-fluid" alt="Skin 2">
+      </div>
+      <div class="carousel-item">
+        <img src="Resource/Valorant_skins/champions2025_vandal.png" class="d-block w-100 img-fluid" alt="Skin 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSkins" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselSkins" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Productos Destacados -->
+  <section class="container mt-5" id="productos">
+    <h2 class="text-center mb-4">Skins Destacadas por los Jugadores</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Resource/Valorant_skins/elderflame_vandal.png" class="card-img-top" alt="Skin 1">
+          <div class="card-body">
+            <h5 class="card-title">Elderflame Vandal</h5>
+            <p class="card-text">¡La skin más épica para tu Vandal! Efectos de fuego y animaciones únicas.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Resource/Valorant_skins/prime_phantom.png" class="card-img-top" alt="Skin 2">
+          <div class="card-body">
+            <h5 class="card-title">Prime Phantom</h5>
+            <p class="card-text">Un clásico de Valorant. Sonidos exclusivos y diseño elegante.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Resource/Valorant_skins/reaver_operator.png" class="card-img-top" alt="Skin 3">
+          <div class="card-body">
+            <h5 class="card-title">Reaver Operator</h5>
+            <p class="card-text">Haz que tus disparos sean legendarios con esta skin oscura y misteriosa.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Destacado -->
+  <section class="container mt-5" id="blog">
+    <h2 class="text-center mb-4">Blog</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Resource/blog1.jpg" class="card-img-top" alt="Blog 1">
+          <div class="card-body">
+            <h5 class="card-title">¿Cuál es la skin más popular de Valorant?</h5>
+            <p class="card-text">Descubre cuáles son las skins favoritas de la comunidad y por qué destacan en el juego.</p>
+            <a href="#" class="btn btn-outline-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Resource/blog2.jpg" class="card-img-top" alt="Blog 2">
+          <div class="card-body">
+            <h5 class="card-title">Guía para elegir tu próxima skin</h5>
+            <p class="card-text">Consejos y recomendaciones para seleccionar la skin perfecta según tu estilo de juego.</p>
+            <a href="#" class="btn btn-outline-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Cuchillos Destacados -->
+  <section class="container mt-5" id="cuchillos">
+    <h2 class="text-center mb-4">Cuchillos Destacados</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="knife-card position-relative h-100">
+          <div class="knife-img-wrapper">
+            <img src="Resource/Valorant_skins/reaver_karambit.png" class="card-img-top knife-img" alt="Reaver Karambit">
+            <video class="knife-video" src="Resource/Valorant_clips/reaver_karambit.mp4" muted loop></video>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Reaver Karambit</h5>
+            <p class="card-text">El cuchillo Reaver, animaciones y efectos oscuros exclusivos.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="knife-card position-relative h-100">
+          <div class="knife-img-wrapper">
+            <img src="Resource/Valorant_skins/prime_karambit.png" class="card-img-top knife-img" alt="Prime Karambit">
+            <video class="knife-video" src="Resource/Valorant_clips/prime_karambit.mp4" muted loop></video>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Prime Karambit</h5>
+            <p class="card-text">Un cuchillo con un diseño elegante y efectos de luz dorados.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="knife-card position-relative h-100">
+          <div class="knife-img-wrapper">
+            <img src="Resource/Valorant_skins/xenohunter_knife.png" class="card-img-top knife-img" alt="Xenohunter Knife">
+            <video class="knife-video" src="Resource/Valorant_clips/xenohunter_knife.mp4" muted loop></video>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Xenohunter Knife</h5>
+            <p class="card-text">Un cuchillo con un diseño futurista y efectos de luz únicos.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Comentarios de Clientes -->
+  <section class="container mt-5 mb-5" id="comentarios">
+    <h2 class="text-center mb-4">Comentarios de nuestros clientes</h2>
+    <div class="row justify-content-center g-4">
+      <div class="col-md-4">
+        <div class="comentario-card p-4 h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img src="Resource/users_icons/Panditax2734.png" alt="Usuario 1" class="comentario-avatar me-3">
+            <div>
+              <strong>Panditax2734</strong>
+              <div class="text-warning small">★★★★★</div>
+            </div>
+          </div>
+          <p class="comentario-text">¡Excelente servicio! Compré la clave de la Elderflame Vandal y llegó al instante. 100% recomendado.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="comentario-card p-4 h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img src="Resource/users_icons/orion_avatar.jpg" alt="Usuario 2" class="comentario-avatar me-3">
+            <div>
+              <strong>Orion_Enj0yer</strong>
+              <div class="text-warning small">★★★★★</div>
+            </div>
+          </div>
+          <p class="comentario-text">Muy confiable, la skin Prime Phantom es original y el soporte fue muy amable.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="comentario-card p-4 h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img src="Resource/user3.png" alt="Usuario 3" class="comentario-avatar me-3">
+            <div>
+              <strong>SniperPro</strong>
+              <div class="text-warning small">★★★★★</div>
+            </div>
+          </div>
+          <p class="comentario-text">La Reaver Operator llegó rápido y sin problemas. ¡Volveré a comprar!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Golden Rose. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Footer extendido -->
+  <div class="footer-extended py-4 mt-5">
+    <div class="container">
+      <div class="row text-center text-md-start align-items-center">
+        <div class="col-md-3 mb-3 mb-md-0">
+          <h5 class="footer-title">Golden Rose</h5>
+          <ul class="list-unstyled">
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre">Sobre Nosotros</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h5 class="footer-title">Síguenos en Instagram</h5>
+          <div class="d-flex flex-column flex-md-row gap-2 justify-content-center align-items-center">
+            <a href="https://instagram.com/http_orion.low" target="_blank" class="footer-ig">
+              <img src="Resource/others_icon/instagram.svg" alt="Instagram" class="footer-ig-icon"> Orion: http_orion.low
+            </a>
+            <a href="https://instagram.com/_luthar.nc_" target="_blank" class="footer-ig">
+              <img src="Resource/others_icon/instagram.svg" alt="Instagram" class="footer-ig-icon"> Luthar: _luthar.nc_
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5 class="footer-title">Soporte</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Términos y Condiciones</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Mostrar video al hacer hover sobre la imagen del cuchillo
+    const knifeCards = document.querySelectorAll('.knife-card');
+    knifeCards.forEach(card => {
+      const img = card.querySelector('.knife-img');
+      const video = card.querySelector('.knife-video');
+      card.addEventListener('mouseenter', () => {
+        img.style.display = 'none';
+        video.style.display = 'block';
+        video.play();
+      });
+      card.addEventListener('mouseleave', () => {
+        video.pause();
+        video.currentTime = 0;
+        video.style.display = 'none';
+        img.style.display = 'block';
+      });
+    });
+  </script>
+</body>
+</html>
