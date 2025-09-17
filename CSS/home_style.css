@@ -153,11 +153,79 @@
   margin: 1rem auto 0 auto;
   width: fit-content;
 }
+.knife-card .card-body {
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
 @media (max-width: 768px) {
+  .knife-card .card-body {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
   .knife-img-wrapper {
     height: 160px;
   }
   .knife-img {
     max-height: 120px;
+  }
+}
+
+/* Ajuste de padding y responsividad para los blogs */
+.blog-article {
+  padding: 3rem 3.5rem;
+}
+@media (max-width: 992px) {
+  .blog-article {
+    padding: 2rem 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .blog-article {
+    padding: 1rem 0.3rem;
+  }
+}
+
+/* Padding y responsividad para tarjetas de blog en home */
+.blog-card-responsive {
+  padding: 0 !important;
+  background: #1a232e;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #0005;
+  border: 1px solid #ffb6c1;
+}
+.blog-card-body-responsive {
+  padding: 2rem 2.2rem 2rem 2.2rem;
+}
+@media (max-width: 992px) {
+  .blog-card-body-responsive {
+    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+  }
+}
+@media (max-width: 576px) {
+  .blog-card-body-responsive {
+    padding: 0.7rem 0.2rem 0.7rem 0.2rem;
+  }
+}
+
+/* Padding y responsividad para tarjetas de cuchillos en home */
+.knife-card-responsive {
+  padding: 0 !important;
+  background: #1a232e;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #0005;
+  border: 1px solid #ffb6c1;
+}
+.knife-card-body-responsive {
+  padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .knife-card-body-responsive {
+    padding: 1rem 0.5rem 1rem 0.5rem;
   }
 }
