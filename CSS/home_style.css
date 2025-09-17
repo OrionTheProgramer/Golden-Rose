@@ -229,3 +229,44 @@
     padding: 1rem 0.5rem 1rem 0.5rem;
   }
 }
+
+.forget-icon {
+      font-size: 3.5rem;
+      color: #ff4655;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    .btn-gradient {
+      background: linear-gradient(90deg, #ff4655 0%, #FFD700 100%);
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      transition: filter 0.2s;
+    }
+    .btn-gradient:hover {
+      filter: brightness(1.1);
+      color: #fff;
+    }
+    .forget-card {
+      background: #232b38;
+      border-radius: 18px;
+      box-shadow: 0 2px 12px #0005;
+      border: 1px solid #ffb6c1;
+      padding: 2.5rem 2.5rem 2rem 2.5rem;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .forget-desc {
+      color: #fff;
+      opacity: 0.85;
+      font-size: 1.08rem;
+    }
+    .forget-link {
+      color: #FFD700;
+      text-decoration: underline;
+    }
+    @media (max-width: 576px) {
+      .forget-card {
+        padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+      }
+    }
